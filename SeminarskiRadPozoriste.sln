@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorisnickiInterfejs", "SeminarskiRadPozoriste\KorisnickiInterfejs.csproj", "{61AD8CC6-176A-4A87-B732-66C7B73327ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domen", "Domen\Domen.csproj", "{B1608D41-7739-4553-A76F-8695652DAF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sesija", "Broker\Sesija.csproj", "{8C151673-9385-4DCF-A5A6-DD0A95444338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemskeOperacije", "SistemskeOperacije\SistemskeOperacije.csproj", "{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{7FA5BB7A-7757-4656-8648-367056009755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontrolerKorisnickogInterfejsa", "KontrolerKorisnickogInterfejsa\KontrolerKorisnickogInterfejsa.csproj", "{D10716A6-FB8D-4A7D-A781-FE3FB037A435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontrolerAplLogike", "KontrolerAplLogike\KontrolerAplLogike.csproj", "{EE19F723-41B1-4845-B4CF-78D15154B4F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AD8CC6-176A-4A87-B732-66C7B73327ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AD8CC6-176A-4A87-B732-66C7B73327ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AD8CC6-176A-4A87-B732-66C7B73327ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AD8CC6-176A-4A87-B732-66C7B73327ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1608D41-7739-4553-A76F-8695652DAF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1608D41-7739-4553-A76F-8695652DAF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1608D41-7739-4553-A76F-8695652DAF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1608D41-7739-4553-A76F-8695652DAF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C151673-9385-4DCF-A5A6-DD0A95444338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C151673-9385-4DCF-A5A6-DD0A95444338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C151673-9385-4DCF-A5A6-DD0A95444338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C151673-9385-4DCF-A5A6-DD0A95444338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA5BB7A-7757-4656-8648-367056009755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA5BB7A-7757-4656-8648-367056009755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA5BB7A-7757-4656-8648-367056009755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA5BB7A-7757-4656-8648-367056009755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10716A6-FB8D-4A7D-A781-FE3FB037A435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10716A6-FB8D-4A7D-A781-FE3FB037A435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10716A6-FB8D-4A7D-A781-FE3FB037A435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10716A6-FB8D-4A7D-A781-FE3FB037A435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE19F723-41B1-4845-B4CF-78D15154B4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE19F723-41B1-4845-B4CF-78D15154B4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE19F723-41B1-4845-B4CF-78D15154B4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE19F723-41B1-4845-B4CF-78D15154B4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06DB8D68-C80A-4206-B2E2-A43A8A61F74C}
+	EndGlobalSection
+EndGlobal

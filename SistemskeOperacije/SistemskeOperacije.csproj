@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89CC8DE5-90B2-4235-9FEF-D8F8B60AFFD1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemskeOperacije</RootNamespace>
+    <AssemblyName>SistemskeOperacije</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlumacSO\IzmeniGlumca.cs" />
+    <Compile Include="GlumacSO\ObrisiGlumca.cs" />
+    <Compile Include="GlumacSO\VratiGlumcePoImenu.cs" />
+    <Compile Include="GlumacSO\VratiSifruGlumca.cs" />
+    <Compile Include="GlumacSO\SacuvajGlumca.cs" />
+    <Compile Include="GlumacSO\VratiSveGlumce.cs" />
+    <Compile Include="IzvodjenjeSO\IzmeniIzvodjenje.cs" />
+    <Compile Include="IzvodjenjeSO\ObrisiIzvodjenje.cs" />
+    <Compile Include="IzvodjenjeSO\SacuvajIzvodjenje.cs" />
+    <Compile Include="IzvodjenjeSO\VratiSvaIzvodjenja.cs" />
+    <Compile Include="IzvodjenjeSO\VratiSvaIzvodjenjaZaPredstavu.cs" />
+    <Compile Include="IzvodjenjeSO\VratiSvaIzvodjenjaZaRepertoar.cs" />
+    <Compile Include="KorisnikSO\RegistrujKorisnika.cs" />
+    <Compile Include="KorisnikSO\PrijaviKorisnika.cs" />
+    <Compile Include="OpstaSO.cs" />
+    <Compile Include="PredstavaSO\IzmeniBrojGlumaca.cs" />
+    <Compile Include="PredstavaSO\IzmeniPredstavu.cs" />
+    <Compile Include="PredstavaSO\ObrisiPredstavu.cs" />
+    <Compile Include="PredstavaSO\SacuvajPredstavu.cs" />
+    <Compile Include="PredstavaSO\VratiPoslednjeDodatuPredstavu.cs" />
+    <Compile Include="PredstavaSO\VratiPredstavePoNazivu.cs" />
+    <Compile Include="PredstavaSO\VratiSvePredstave.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepertoarSO\IzmeniRepertoar.cs" />
+    <Compile Include="RepertoarSO\ObrisiRepertoar.cs" />
+    <Compile Include="RepertoarSO\SacuvajRepertoar.cs" />
+    <Compile Include="RepertoarSO\VratiRepertoarePoNazivu.cs" />
+    <Compile Include="RepertoarSO\VratiRepertoarPoNazivu.cs" />
+    <Compile Include="RepertoarSO\VratiSveRepertoare.cs" />
+    <Compile Include="UlogaSO\IzmeniUlogu.cs" />
+    <Compile Include="UlogaSO\ObrisiUlogu.cs" />
+    <Compile Include="UlogaSO\SacuvajUlogeZaPredstavu.cs" />
+    <Compile Include="UlogaSO\VratiUlogeZaPredstavu.cs" />
+    <Compile Include="ZanrPredstavaSO\ObrisiZanrZaPredstavu.cs" />
+    <Compile Include="ZanrPredstavaSO\SacuvajZanrPredstavu.cs" />
+    <Compile Include="ZanrPredstavaSO\VratiZanroveZaPredstavu.cs" />
+    <Compile Include="ZanrSO\SacuvajZanr.cs" />
+    <Compile Include="ZanrSO\VratiSveZanrove.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Broker\Sesija.csproj">
+      <Project>{8C151673-9385-4DCF-A5A6-DD0A95444338}</Project>
+      <Name>Sesija</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domen\Domen.csproj">
+      <Project>{B1608D41-7739-4553-A76F-8695652DAF2A}</Project>
+      <Name>Domen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
